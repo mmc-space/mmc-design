@@ -1,0 +1,33 @@
+{
+  "name": "mmc-design",
+  "version": "1.0.0",
+  "description": "",
+  "author": "code",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter @mmc-design/test dev",
+    "lint": "eslint packages/**/src/*  --fix --ext .ts,.tsx --config .eslintrc.json"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@mmc-group/eslint-config": "^0.0.2",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "eslint": "^8.28.0",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.3",
+    "vitest": "^0.25.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
