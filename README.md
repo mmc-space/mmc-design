@@ -1,4 +1,4 @@
-# mmc-lib
+# @mmc-group/web-lib
 A commonly used web lib.
 
 ### Installation
@@ -10,7 +10,12 @@ pnpm i @mmc-group/web-lib
 ### Usage
 
 ```ts
-import { ErrorCode } from '@mmc-group/web-lib'
+import { wait } from '@mmc-group/web-lib'
 
-console.log(ErrorCode.success)
+const test = async () => {
+  await wait(2000)
+  console.log('1')
+}
+
+test()
 ```
