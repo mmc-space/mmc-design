@@ -1,5 +1,5 @@
 {
-  "name": "@mmc-group/web-lib",
+  "name": "@mmc-cloud/web-lib",
   "description": "A commonly used web lib.",
   "version": "0.0.4",
   "author": "codeDaiQin",
@@ -14,7 +14,6 @@
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "unpkg": "dist/index.umd.min.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mmc-space/web-lib.git"

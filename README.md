@@ -1,16 +1,16 @@
-# @mmc-group/web-lib
+# @mmc-cloud/web-lib
 A commonly used web lib.
 
 ### Installation
 
 ```bash
-pnpm i @mmc-group/web-lib
+pnpm i @mmc-cloud/web-lib
 ```
 
 ### Usage
 
 ```ts
-import { wait } from '@mmc-group/web-lib'
+import { wait } from '@mmc-cloud/web-lib'
 
 const test = async () => {
   await wait(2000)
